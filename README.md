@@ -5,7 +5,7 @@
 Clone the repository
 
 ```bash
-Project repo: https://github.com/Kibs-Neville/medical-chatbot.git
+https://github.com/Kibs-Neville/medical-chatbot.git
 ```
 
 ### STEP 1 - Create a Python virtual environment after opening the project folder; activate the environment
@@ -20,7 +20,7 @@ source .venv/bin/activate
 
 ### STEP 2 - Install the requirements
 
-- We first run this manually to avoid installing gpu bloat
+- First run this manually to avoid installing gpu bloat
   
 ```bash
 python3 -m pip install torch --index-url https://download.pytorch.org/whl/cpu
@@ -52,6 +52,4 @@ python3 app.py
 ---
 
 # MEDIBOT ARCHITECTURE
-# The figure below represents the Medibot project architecture
-
 ![Medibot Architecture](medibot-architecture.png)
